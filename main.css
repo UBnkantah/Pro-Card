@@ -55,3 +55,21 @@ button span{
 .header{
     font-size: 25px;
 }
+@media only screen and (max-width: 486px){
+    .container{
+        margin: 30px;
+        display: grid;
+        grid-template-columns: 350px;
+        grid-template-rows: 450px 450px;
+        justify-content: center;
+    }
+    .txt-container{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding: 20px;
+        background-color: white;
+        position: relative;
+    } 
+}
